@@ -1,0 +1,62 @@
+body{
+    background-color: lightblue;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    text-align: center;
+}
+
+.botao a{
+    text-align: center;
+    background-color: #cccccc;
+    border: 1px solid black;
+    border-radius: 900px;
+}
+
+.botao a:hover{
+    background-color: #c2baba;
+    color: white;
+}
+
+.botao1 a{
+    text-align: center;
+    background-color: #cccccc;
+    border: 1px solid black;
+    border-radius: 90px;
+}
+
+.botao1 a:hover{
+    background-color: #c2baba;
+    color: white;
+
+}
+
+#tabelaServico table {
+    width: 500px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: white;
+}
+#animal {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+#dono {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+fieldset{
+    background-color: white;
+}
+legend{
+    background-color: rgb(197, 229, 240);
+    border: 1px solid;
+}

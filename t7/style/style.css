@@ -1,0 +1,76 @@
+
+
+body {
+    background-color: #E0E8FF;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.imagem1{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 26px;
+}
+
+h2{
+    font-weight: 700;
+
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box {
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgb(163, 162, 162);
+}
+
+.block0{
+    line-height: 25px;
+    font-size: 16px;
+    color: #838386;
+    width: 100%;
+}
+
+
+.block1{
+    display: flex;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    align-items: center;
+    background-color: #F5F7FF;
+    border-radius: 10px;
+    line-height: 20px;
+    height:100%;
+    width: 100%;
+
+}
+
+
+
+.botao a{
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgb(85, 85, 85);
+    background-color: #3829E0;
+    text-decoration: none;
+    color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    
+}
+

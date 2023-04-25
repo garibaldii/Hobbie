@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="keywords" content="animais, cuidado, exame, gato, cachorro">
+    <link rel="stylesheet" href="style.css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Clínica AnimaVET</title>
+</head>
+
+<body>
+    <section id="inicio">
+
+        <p class="botao"><a href="#servicos">Servicos</a></p>
+
+        <p class="botao1"><a href="#cadastro">Cadastro</a></p>
+
+        <h1>Clínica AnimaVet</h1>
+
+        <img src="img/cachorro-sinais-vet.jpg">
+    </section>
+
+    <hr>
+    <section id="servicos">
+        <div id="tabelaServico">
+            <table border="1px">
+                <thead>
+                    <tr>
+                        <td>Serviços</td>
+                        <td>Valor</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Consulta</td>
+                        <td>R$ 100,00</td>
+                    </tr>
+                    <tr>
+                        <td>Banho e Tosa</td>
+                        <td>R$100,00</td>
+                    </tr>
+                    <tr>
+                        <td>Castração</td>
+                        <td>R$150,00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2"> Aproveite nossa promoção!</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </section>
+
+    <section id="cadastro">
+        <div id="dono">
+            <form>
+                <fieldset>
+
+                    <legend>Dono</legend>
+                    <label for="nome">Nome</label>
+                    <input type="tex" name="nome" placeholder="Insira seu nome">
+
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" name="telefone" placeholder="(00)00000-0000">
+
+                </fieldset>
+            </form>
+        </div>
+
+        <div id="animal">
+            <form>
+                <fieldset>
+                    <legend>Animal</legend>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" placeholder="insira o nome do seu pet">
+
+                    <br>
+
+                    <label for="nascimentoPet">Data de nascimento</label>
+                    <input type="date" name="nascimentoPet" max="2023-03-24" min="1990-01-01">
+
+                    <br>
+                    <div id="raça"></div>
+                    <input type="radio" name="tipo" value="cachorro">
+                    <label for="cachorro">Cachorro</label>
+
+                    <input type="radio" name="tipo" value="gato">
+                    <label for="gato">Gato</label>
+
+                    <input type="radio" name="tipo" value="porquinho-da-india">
+                    <label for="porquinho-da-india">Porquinho-da-Índia</label>
+
+                    <br>
+
+                    <input type="checkbox" name="temperamento">
+                    <label for="temperamento">Seu animal é bravo?</label>
+                </fieldset>
+                <input type="submit" value="Cadastrar">
+                <input type="reset" value="Limpar">
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>

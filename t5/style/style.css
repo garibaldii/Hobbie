@@ -1,0 +1,35 @@
+body{
+    background-color: #D6E2F0
+}
+
+.quadro{
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    text-align: center;
+    width: 330px;
+    height: 500px;
+}
+
+img{
+    border-radius: 15px;
+    margin-top: 15px;
+}
+h1{
+    color: #1F3251;
+    font-size: 23px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+}
+
+p{
+    color: #7B879D;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+
+}
