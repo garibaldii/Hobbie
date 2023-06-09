@@ -1,12 +1,13 @@
 contador = 0
 conta = ""
-somador = 0
+saldo = 0
+lista_usuarios = []
 
 def depositar(x):
-    global somador
+    global saldo
     global conta
     conta += (f"Depósito de {x:.2f}\n")
-    somador += x
+    saldo += x
     print("-----------------------")
     print()
     if x < 0:
@@ -15,21 +16,28 @@ def depositar(x):
     pass
 
 def sacar(y):
-    global somador
+    global saldo
     global conta
-    if y > somador:
+    if y > saldo:
         print("-----------------------------------------------------")
-        print(f"Saldo insuficiente, você tem R${somador} na sua conta")
+        print(f"Saldo insuficiente, você tem R${saldo} na sua conta")
         print("-----------------------------------------------------")
         print()
     elif y > 500:
         print("Não ultrapasse o limite diário de R$500,00")
     else:
         conta += (f"Saque de {y:.2f}\n")
-        somador -= y
+        saldo -= y
         print("-----------------------")
         print()
         pass
+
+def extrato():
+    print("---------Extrato----------")
+    print()
+    print(conta)
+    print(f"Saldo Total: R${saldo}")
+    print("--------------------------")
     
 def intro():
     print("-----------------------")
@@ -40,6 +48,7 @@ def intro():
     print("3- Extrato")
     print("-----------------------") 
     print()
+    
 while True:
     intro()
     escolha = float(input("O que deseja? Digite 0 para sair do menu: "))
@@ -64,9 +73,5 @@ while True:
             print()
             
     elif escolha == 3:
-        print("---------Extrato----------")
-        print()
-        print(conta)
-        print(f"Saldo Total: R${somador}")
-        print("--------------------------")
-        break
+        extrato()
+        break    
