@@ -84,8 +84,5 @@ def criar_conta(agencia, numero_conta, usuarios):
     
     print("\n @@@ Usuário não encontrado, fluxo de criação de conta encerrado! @@@")
 
-def listar_contas(contas):
-    for conta in contas:
-        linha = f""\
-            'Agência:\t{conta['agencia']}
+
             

@@ -1,0 +1,65 @@
+body{
+    background-color: #27293F;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 16px;
+}
+
+.container_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.diferenciado{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    border-radius: 20px;
+    width: 60%;
+
+}
+
+.container_body{
+  margin-right: 3%;
+  margin-left: 3%;
+  width: 100%;
+}
+
+.box_title{
+    font-size: 26px;
+    font-weight: 700;
+    color: #27293F;
+    text-align: center;
+}
+
+
+.box_line{
+    display: flex;
+    font-weight: 400;
+    align-items: center;
+}
+
+.box_line,p{
+    margin-left: 4% ;
+}
+
+
+.container_email{
+    display: flex;
+    justify-content: center;
+}
+
+.box_email{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    width: 70%;
+}
+
+
+#btn_email{
+    margin-top: 4%;
+}
