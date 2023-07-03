@@ -22,7 +22,7 @@ main{
 
 #container_part_1{
     display: flex;
-    width: 72%;
+    width: 77%;
 }
 
 
@@ -158,4 +158,10 @@ img{
         margin-bottom: auto;
     }
 
+}
+
+
+.error{
+    margin-top: -1%;
+    display: flex;
 }

@@ -1,5 +1,7 @@
 function age(){
     var year = document.getElementById("year").value;
+    var year_input = document.getElementById("year");
+
     var month = document.getElementById("month").value;
     var day = document.getElementById("day").value;
     
@@ -18,6 +20,14 @@ function age(){
         month_result += 12
         year_result -= 1
     }
+
+    if (year > 2023 || year == ''){
+        year_input.style.borderColor = 'red'
+    }
+        else{
+            year_input.style.borderColor = ''
+        }
+    
 
 
     
